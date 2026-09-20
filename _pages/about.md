@@ -11,4 +11,4 @@ I am a theoretical cosmologist and recent PhD graduate, specialising in numerica
 
 To tackle these complex physics problems, I modified and utilised specialised numerical solver codes in C and Python, alongside applying advanced statistical techniques such as Markov Chain Monte Carlo, Principal Component Analysis, and Fisher forecasting.
 
-I am currently seeking a postdoctoral position in theoretical cosmology.
+On this website, you can find more information about my research and publications, as well as my CV.
