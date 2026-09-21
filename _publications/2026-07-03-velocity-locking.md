@@ -16,7 +16,7 @@ mathjax: true
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-top: 30px; margin-bottom: 30px;">
   <img src="/images/theta_de_over_theta_cdm_k_0_01.png" alt="Large scale velocity locking at k=0.01" style="width: 48%; min-width: 250px; border-radius: 5px;">
   <img src="/images/theta_de_over_theta_cdm_k_1.png" alt="Small scale velocity unlocking at k=1" style="width: 48%; min-width: 250px; border-radius: 5px;">
-  <p style="width: 100%; text-align: center; margin-top: 10px;"><i>Ratio of dark energy to dark matter fluid velocities, comparing a dark energy equation of state (w) that is greater than the cosmological constant value (w = -0.9) to one that is approximately equal to it ($w = -1 + 10^{-5}$). <b>Left:</b> On large scales (small k), the fluids remain locked. <b>Right:</b> On small scales (large k), dark energy pressure eventually breaks the lock.</i></p>
+  <p style="width: 100%; text-align: center; margin-top: 10px;"><i>Ratio of dark energy to dark matter fluid velocities, comparing a dark energy equation of state (w) that is greater than the cosmological constant value (w = -0.9) to one that is approximately equal to it (w = -0.99999). <b>Left:</b> On large scales (small k), the fluids remain locked. <b>Right:</b> On small scales (large k), dark energy pressure eventually breaks the lock.</i></p>
 </div>
 
 ## Plain Language Summary
