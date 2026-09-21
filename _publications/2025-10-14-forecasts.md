@@ -12,13 +12,14 @@ badge_doi: '10.1088/1475-7516/2025/10/052'
 mathjax: true
 ---
 
-## Plain Language Summary
-This paper investigates whether upcoming cosmic surveys, like DESI, can detect a proposed "friction" between dark matter and dark energy. This interaction is a popular theory because it could explain why the modern Universe is less clumpy than standard models predict. By generating mock survey data and running statistical forecasts, we tested how accurately future experiments could measure this interaction at different points in cosmic history. We found that if dark energy is constant, we can easily measure this interaction across all time periods. However, if dark energy is "thawing" (evolving over time), the friction was significantly weaker in the early Universe, making it much harder to detect in the distant past.
-
-## Abstract
-Models of interacting dark energy and dark matter offer a possible solution to cosmological tensions. In this work, we examine a pure momentum-exchange model with a time-dependent coupling strength $$\xi(z)$$ that could help to alleviate the $$S_8$$ tension. We perform Fisher forecasting and MCMC analysis to constrain the coupling strength of this interaction for different redshift bins $$0.0 < z < 2.1$$, using the specifications of upcoming DESI-like surveys. For this analysis, we examine both a model with a constant equation of state $$w=-0.9$$, as well as a thawing dark energy model with an evolving $$w(z)$$. We show that, for a constant equation of state, $$\xi(z)$$ can be well constrained in all redshift bins. However, due to a weaker effect at early times, the constraints are significantly reduced at high redshifts in the case of a thawing $$w(z)$$ model.
-
+## Equation of State Models
 <div style="text-align: center; margin-top: 30px; margin-bottom: 30px;">
   <img src="/images/wz_plot.png" alt="Dark energy equation of state w(z) showing constant and thawing models" style="width: 80%; max-width: 600px; border-radius: 5px;">
   <p><i>The dark energy equation of state, comparing a constant model to the thawing parametrisation and the DESI best fit model.</i></p>
 </div>
+
+## Plain Language Summary
+This paper investigates whether upcoming cosmic surveys, like DESI, can detect a proposed "friction" between dark matter and dark energy. This interaction is a popular theory because it could explain why the modern Universe is less clumpy than standard models predict. By generating mock survey data and running statistical forecasts, we tested how accurately future experiments could measure this interaction at different points in cosmic history. We found that if dark energy is constant, we can easily measure this interaction across all time periods. However, if dark energy is "thawing" (evolving over time), the friction was significantly weaker in the early Universe, making it much harder to detect in the distant past.
+
+## Abstract
+Models of interacting dark energy and dark matter offer a possible solution to cosmological tensions. In this work, we examine a pure momentum-exchange model with a time-dependent coupling strength $$\xi(z)$$ that could help to alleviate the $$S_8$$ tension. We perform Fisher forecasting and MCMC analysis to constrain the coupling strength of this interaction for different redshift bins $$0.0 < z < 2.1$$, using the specifications of upcoming DESI-like surveys. For this analysis, we examine both a model with a constant equation of state $$w=-0.9$$, as well as a thawing dark energy model with an evolving $$w(z)$$. We show that, for a constant equation of state, $$\xi(z)$$ can be well constrained in all redshift bins. However, due to a weaker effect at early times, the constraints are significantly reduced at high redshifts in the case of a thawing $$w(z)$$ model
