@@ -44,7 +44,7 @@ I am a recent Cosmology PhD graduate from the Institute of Cosmology and Gravita
 * Utilised hi_class to explore how cosmological observations can constrain extensions to General Relativity.
 
 ## Publications
-* **N. Cruickshank**, R. Crittenden, K. Koyama, M. Bruni. *Dark sector interactions in the $w \rightarrow -1$ limit: velocity locking in pure momentum exchange models*. Journal of Cosmology and Astroparticle Physics (July 2026).
+* **N. Cruickshank**, R. Crittenden, K. Koyama, M. Bruni. *Dark sector interactions in the <i>w &rarr; -1</i> limit: velocity locking in pure momentum exchange models*. Journal of Cosmology and Astroparticle Physics (July 2026).
 * **N. Cruickshank**, R. Crittenden, K. Koyama, M. Bruni. *Forecasts for interacting dark energy with time-dependent momentum exchange*. Journal of Cosmology and Astroparticle Physics (October 2025).
 
 ## Conference and Seminar Talks
@@ -57,7 +57,7 @@ I am a recent Cosmology PhD graduate from the Institute of Cosmology and Gravita
 * **Contributed Talk – South Coast Cosmology 2026** (15/01/2026)
   * Presentation on *Constraining Momentum Exchange in the Dark Sector* (University of Sussex)
 * **Contributed Parallel Session Talk – COSMO-25** (14/10/2025)
-  * Presentation on *Dark Sector Momentum Exchange in the $w \rightarrow -1$ Limit* (Carnegie Mellon University)
+  * Presentation on *Dark Sector Momentum Exchange in the <i>w &rarr; -1</i> Limit* (Carnegie Mellon University)
 * **Departmental Talk** (08/04/2024)
   * Presentation on *Forecasts for Interacting Dark Energy With Time-Dependent Momentum Exchange* (University of Portsmouth)
 
