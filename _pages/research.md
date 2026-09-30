@@ -27,3 +27,5 @@ My research bridges the gap between theoretical physics and precision observatio
 * **Simulations & Solvers:** I modify highly specialised Einstein-Boltzmann solvers, primarily working in C with **CLASS**, to implement new dark energy and redshift-binned interaction models. I use this code to accurately model complex dark sector fluid dynamics and the impact on the growth of linear matter perturbations.
 * **Fisher Forecasting:** I build Python-based Fisher forecasting pipelines that utilise theoretical linear matter power spectra and growth rates as mock data to evaluate the constraining power of Stage IV cosmological survey observations.
 * **Statistical Inference:** I write custom Markov Chain Monte Carlo (MCMC) likelihoods for use with **MontePython** to rigorously explore parameter spaces and test theoretical models against synthetic survey data.
+
+* Test
