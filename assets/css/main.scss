@@ -74,12 +74,11 @@ body {
     color: #e0e0e0 !important;
 }
 
-/* 4. Force transparency on all nested navigation elements */
-.masthead__menu, 
-.masthead__menu ul, 
-.greedy-nav, 
-.greedy-nav ul, 
-.greedy-nav a {
-    background-color: transparent !important;
+/* 4. Force transparency on the navigation menu using the specific ID */
+#site-nav,
+#site-nav .visible-links,
+#site-nav .masthead__menu-item,
+#site-nav .masthead__menu-item a {
     background: transparent !important;
+    background-color: transparent !important;
 }
