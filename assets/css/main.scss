@@ -40,6 +40,7 @@
 
 /* 1. Apply background to HTML to guarantee full-screen coverage */
 html {
+    background-color: #0b0710 !important; /* Hides the grey mobile overscroll */
     min-height: 100vh !important;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/images/Aurora_Sky.jpg') !important;
     background-size: cover !important;
@@ -53,16 +54,18 @@ body {
     background: transparent !important;
 }
 
-/* 2. Glass effect for Header (Targeting the inner wrapper specifically) */
+/* 2. Glass effect for Header */
 .masthead {
     background: transparent !important;
 }
 
 .masthead__inner-wrap {
-    background: rgba(25, 15, 35, 0.65) !important; 
-    backdrop-filter: blur(12px) !important;
-    -webkit-backdrop-filter: blur(12px) !important;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+    /* Lighter, frostier tint to contrast against the dark sky */
+    background: rgba(200, 180, 255, 0.15) !important; 
+    backdrop-filter: blur(15px) !important;
+    -webkit-backdrop-filter: blur(15px) !important;
+    /* Delete the line below if you want to remove the subtle border */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important; 
 }
 
 /* 3. Glass effect for Footer */
@@ -74,9 +77,18 @@ body {
     color: #e0e0e0 !important;
 }
 
-/* 4. Nuclear option: Force transparency on the menu and ALL nested elements */
+/* 4. Nuclear option: Force transparency on the desktop menu */
 .masthead__menu,
 .masthead__menu * {
     background: transparent !important;
     background-color: transparent !important;
+}
+
+/* 5. Fix mobile dropdown readability */
+.greedy-nav .hidden-links {
+    background: rgba(20, 12, 35, 0.95) !important; /* Dark, mostly solid background */
+    backdrop-filter: blur(15px) !important;
+    -webkit-backdrop-filter: blur(15px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5) !important;
 }
