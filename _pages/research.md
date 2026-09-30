@@ -45,3 +45,9 @@ My research bridges the gap between theoretical physics and precision observatio
 </div>
 
 </div>
+
+## Previous Research
+Before my doctoral studies, I established my computational cosmology foundations through an MPhys project and Research Placement at the University of Portsmouth. 
+* **Modified Gravity** Theories of modified gravity build upon General Relativity to explain how gravity may operate on the largest cosmic scales, often by introducing new dynamic fields that couple to spacetime and matter.
+* **Redshift-Space Distortions:** Cosmologists infer the distance to galaxies from their cosmological redshift—the stretching of light caused by the expansion of the universe. However, the observed redshift is also influenced by the local motion of galaxies. These peculiar velocities cause large-scale structures to appear artificially distorted along our line of sight. Known as Redshift-Space Distortions (RSD), these patterns allow us to measure the growth rate of cosmic structure.
+* **Code Development:** I modified the **hi_class** code to explore the potential particle nature of dark energy and constrain Horndeski scalar-tensor models of modified gravity. I expanded upon this by writing custom likelihood codes for **MontePython** that made use of **hi_class** growth rate outputs to constrain Horndeski model parameters with RSD data.
