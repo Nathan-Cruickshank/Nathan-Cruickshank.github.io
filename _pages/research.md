@@ -23,7 +23,7 @@ My research bridges the gap between theoretical physics and precision observatio
   </div>
   <div>
     <img src="/images/Scattering_Diagram.png" alt="Elastic scattering interaction diagram" style="width: 80%; margin: 0 auto; border-radius: 5px;">
-    <p style="font-size: 0.85em; color: #aaaaaa; margin-top: 8px; margin-bottom: 0;"><i>Diagram of pure momentum exchange</i></p>
+    <p style="font-size: 0.85em; color: #aaaaaa; margin-top: 8px; margin-bottom: 0;"><i>Diagram depicting a pure momentum exchange interaction, with interaction strength ξ, between dark energy (ϕ) and dark matter (ψ).</i></p>
   </div>
 </div>
 
