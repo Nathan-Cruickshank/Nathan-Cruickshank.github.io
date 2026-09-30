@@ -22,7 +22,7 @@ My research bridges the gap between theoretical physics and precision observatio
     <p style="font-size: 0.85em; color: #aaaaaa; margin-top: 8px; margin-bottom: 0;"><i>Image credit: Boylan-Kolchin et al. (2009)</i></p>
   </div>
   <div>
-    <img src="/images/elastic_scattering.jpg" alt="Elastic scattering interaction diagram" style="width: 100%; border-radius: 5px; background-color: white; padding: 10px;">
+    <img src="/images/Scattering_Diagram.png" alt="Elastic scattering interaction diagram" style="width: 100%; border-radius: 5px; background-color: white; padding: 10px;">
     <p style="font-size: 0.85em; color: #aaaaaa; margin-top: 8px; margin-bottom: 0;"><i>Diagram of pure momentum exchange</i></p>
   </div>
 </div>
