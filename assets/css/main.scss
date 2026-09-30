@@ -73,3 +73,8 @@ body {
     border-top: 1px solid rgba(255, 255, 255, 0.08) !important;
     color: #e0e0e0 !important;
 }
+
+/* 4. Remove the hardcoded grey from the top navigation bar */
+.greedy-nav, .masthead__menu {
+    background: transparent !important;
+}
