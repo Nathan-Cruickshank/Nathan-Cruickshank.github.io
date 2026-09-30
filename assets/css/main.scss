@@ -54,18 +54,18 @@ body {
     background: transparent !important;
 }
 
-/* 2. Glass effect for Header */
+/* 2. Glass effect for Header (Moved to the true full-width outer container) */
 .masthead {
-    background: transparent !important;
-}
-
-.masthead__inner-wrap {
     /* Lighter, frostier tint to contrast against the dark sky */
     background: rgba(200, 180, 255, 0.15) !important; 
     backdrop-filter: blur(15px) !important;
     -webkit-backdrop-filter: blur(15px) !important;
-    /* Delete the line below if you want to remove the subtle border */
     border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important; 
+}
+
+.masthead__inner-wrap {
+    /* Strip the background from the restricted inner column */
+    background: transparent !important;
 }
 
 /* 3. Glass effect for Footer */
