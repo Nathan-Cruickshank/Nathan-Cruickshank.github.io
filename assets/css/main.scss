@@ -74,11 +74,9 @@ body {
     color: #e0e0e0 !important;
 }
 
-/* 4. Force transparency on the navigation menu using the specific ID */
-#site-nav,
-#site-nav .visible-links,
-#site-nav .masthead__menu-item,
-#site-nav .masthead__menu-item a {
+/* 4. Nuclear option: Force transparency on the menu and ALL nested elements */
+.masthead__menu,
+.masthead__menu * {
     background: transparent !important;
     background-color: transparent !important;
 }
