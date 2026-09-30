@@ -18,11 +18,11 @@ My research bridges the gap between theoretical physics and precision observatio
 
 <div style="flex: 0 0 350px; display: flex; flex-direction: column; gap: 20px; margin: auto; text-align: center;">
   <div>
-    <img src="/images/LSS_cosmic_web.jpg" alt="Simulation of the cosmic web large-scale structure" style="width: 100%; border-radius: 5px;">
-    <p style="font-size: 0.85em; color: #aaaaaa; margin-top: 8px; margin-bottom: 0;"><i>Image credit: Boylan-Kolchin et al. (2009)</i></p>
+    <img src="/images/LSS_cosmic_web.jpg" alt="Simulation of the cosmic web large-scale structure" style="width: 80%; margin: 0 auto; border-radius: 5px;">
+    <p style="font-size: 0.85em; color: #aaaaaa; margin-top: 8px; margin-bottom: 0;"><i>The cosmic web<br>Image credit: Boylan-Kolchin et al. (2009)</i></p>
   </div>
   <div>
-    <img src="/images/Scattering_Diagram.png" alt="Elastic scattering interaction diagram" style="width: 100%; border-radius: 5px; background-color: white; padding: 10px;">
+    <img src="/images/Scattering_Diagram.png" alt="Elastic scattering interaction diagram" style="width: 80%; margin: 0 auto; border-radius: 5px;">
     <p style="font-size: 0.85em; color: #aaaaaa; margin-top: 8px; margin-bottom: 0;"><i>Diagram of pure momentum exchange</i></p>
   </div>
 </div>
