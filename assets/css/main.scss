@@ -38,12 +38,42 @@
     "layout/json_cv"
 ;
 
+/* 1. Force the background to cover the entire screen, even on short pages */
+html {
+    background-color: #0b0710 !important; /* Dark fallback colour */
+}
+
 body {
-    /* The linear-gradient creates a 60% dark overlay directly on top of the image */
+    min-height: 100vh !important;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/images/Aurora_Sky.jpg') !important;
     background-size: cover !important;
     background-position: center top !important;
     background-attachment: fixed !important;
     background-repeat: no-repeat !important;
+    
+    /* These ensure the footer is pushed to the bottom of the screen */
+    display: flex !important;
+    flex-direction: column !important;
 }
-/*test
+
+.initial-content, #main {
+    flex: 1 0 auto !important;
+}
+
+/* 2. Glass effect for the Header (Masthead) */
+.masthead {
+    background: rgba(25, 15, 35, 0.65) !important; /* Deep, semi-transparent purple */
+    backdrop-filter: blur(12px) !important;
+    -webkit-backdrop-filter: blur(12px) !important; /* Safari support */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+
+/* 3. Glass effect for the Footer */
+.page__footer {
+    background: rgba(25, 15, 35, 0.65) !important;
+    backdrop-filter: blur(12px) !important;
+    -webkit-backdrop-filter: blur(12px) !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.08) !important;
+    color: #e0e0e0 !important; 
+    margin-top: auto !important; 
+}
