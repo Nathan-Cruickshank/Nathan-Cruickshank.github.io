@@ -93,19 +93,9 @@ body {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5) !important;
 }
 
-/* 7. Push navigation links to the far right without breaking the menu script */
+/* 7. Safely push navigation links to the right without triggering the mobile menu script */
 .greedy-nav .visible-links {
-    display: block !important;
-    text-align: right !important; /* Aligns all the links to the right */
-    width: 100% !important;
-}
-
-/* Pull the site title to the left edge */
-.greedy-nav .visible-links .masthead__menu-item--lg {
-    float: left !important;
-}
-
-/* Add breathing room to the far right edge */
-.greedy-nav .visible-links li:last-child {
-    padding-right: 2em !important;
+    width: auto !important;       /* Ensures the JS knows the links still fit on screen */
+    margin-left: auto !important; /* Slides the links to the right in modern browsers */
+    float: right !important;      /* Fallback slide for older theme versions */
 }
