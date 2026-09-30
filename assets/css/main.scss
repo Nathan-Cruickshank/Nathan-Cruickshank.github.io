@@ -37,3 +37,12 @@
     "layout/sidebar",
     "layout/json_cv"
 ;
+
+body {
+    /* The linear-gradient creates a 60% dark overlay directly on top of the image */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/images/Aurora_Sky.jpg') !important;
+    background-size: cover !important;
+    background-position: center top !important;
+    background-attachment: fixed !important;
+    background-repeat: no-repeat !important;
+}
