@@ -94,13 +94,17 @@ body {
 }
 
 /* 7. Push navigation links to the far right for visual balance */
-.greedy-nav {
+.greedy-nav .visible-links {
     display: flex !important;
+    width: 100% !important; /* Ensure the list spans the whole container */
 }
 
-.greedy-nav .visible-links {
-    margin-left: auto !important;
-    display: flex !important;
-    justify-content: flex-end !important;
-    padding-right: 2em !important; /* Adds a bit of breathing room from the absolute edge */
+/* Target the site title specifically and use it to push the other links right */
+.greedy-nav .visible-links .masthead__menu-item--lg {
+    margin-right: auto !important; 
+}
+
+/* Add a bit of breathing room to the final link on the right edge */
+.greedy-nav .visible-links li:last-child {
+    padding-right: 2em !important;
 }
