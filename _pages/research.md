@@ -29,7 +29,17 @@ My research bridges the gap between theoretical physics and precision observatio
 
 </div>
 
-## Technical Expertise & Methods
+<div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center;" markdown="1">
+
+<div style="flex: 1; min-width: 300px;" markdown="1">
 * **Simulations & Solvers:** I modify highly specialised Einstein-Boltzmann solvers, primarily working in C with **CLASS**, to implement new dark energy and redshift-binned interaction models. I use this code to accurately model complex dark sector fluid dynamics and the impact on the growth of linear matter perturbations.
 * **Fisher Forecasting:** I build Python-based Fisher forecasting pipelines that utilise theoretical linear matter power spectra and growth rates as mock data to evaluate the constraining power of Stage IV cosmological survey observations.
 * **Statistical Inference:** I write custom Markov Chain Monte Carlo (MCMC) likelihoods for use with **MontePython** to rigorously explore parameter spaces and test theoretical models against synthetic survey data.
+</div>
+
+<div style="flex: 0 0 350px; margin: auto; text-align: center;">
+  <img src="/images/Corner_plot_A_kappa.png" alt="Fisher Matrix vs MontePython Corner Plot" style="width: 100%; border-radius: 5px; background-color: white; padding: 10px;">
+  <p style="font-size: 0.85em; color: #aaaaaa; margin-top: 8px; line-height: 1.3; margin-bottom: 0;"><i>Forecasted 1&sigma; and 2&sigma; contours of redshift-binned interaction parameters and the dark energy equation of state, when modelled with a thawing dark energy.</i></p>
+</div>
+
+</div>
