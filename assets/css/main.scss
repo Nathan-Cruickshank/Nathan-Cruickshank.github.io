@@ -74,7 +74,12 @@ body {
     color: #e0e0e0 !important;
 }
 
-/* 4. Remove the hardcoded grey from the top navigation bar */
-.greedy-nav, .masthead__menu {
+/* 4. Force transparency on all nested navigation elements */
+.masthead__menu, 
+.masthead__menu ul, 
+.greedy-nav, 
+.greedy-nav ul, 
+.greedy-nav a {
+    background-color: transparent !important;
     background: transparent !important;
 }
