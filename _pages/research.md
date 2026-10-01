@@ -29,7 +29,7 @@ My research bridges the gap between theoretical physics and precision observatio
 
 </div>
 
-## Technical Expertise & Methods
+## Skills & Methods
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center;" markdown="1">
 
