@@ -14,7 +14,7 @@ To tackle these complex physics problems, I modified and utilised specialised nu
 On this website, you can find more information about my research and publications, as well as my CV.
 
 <figure style="text-align: center; display: block; margin: 2em auto;">
-    <img src="/images/Outreach.png" alt="Demonstrating physics concepts at a public outreach event" style="width: 85%;">
+    <img src="/images/Outreach.png" alt="Demonstrating physics concepts at a public outreach event" style="width: 80%;">
     <figcaption style="font-style: italic; margin-top: 0.5em; font-size: 0.9em; color: white;">
         Using diffraction grating glasses and gas emission lamps to discuss spectroscopy and the physics of spectral lines at a public outreach event.
     </figcaption>
