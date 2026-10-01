@@ -15,7 +15,7 @@ On this website, you can find more information about my research and publication
 
 <figure style="text-align: center; display: block; margin: 2em auto;">
     <img src="/images/Outreach.png" alt="Demonstrating physics concepts at a public outreach event">
-    <figcaption style="font-style: italic; margin-top: 0.5em; font-size: 0.9em;">
+    <figcaption style="font-style: italic; margin-top: 0.5em; font-size: 0.9em; color: white;">
         Using diffraction grating glasses and gas emission lamps to discuss spectroscopy and the physics of spectral lines at a public outreach event.
     </figcaption>
 </figure>
