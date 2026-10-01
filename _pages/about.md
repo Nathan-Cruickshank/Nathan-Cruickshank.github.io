@@ -12,3 +12,10 @@ I am a theoretical cosmologist and recent PhD graduate, specialising in numerica
 To tackle these complex physics problems, I modified and utilised specialised numerical solver codes in C and Python, alongside applying advanced statistical techniques such as Markov Chain Monte Carlo, Principal Component Analysis, and Fisher forecasting.
 
 On this website, you can find more information about my research and publications, as well as my CV.
+
+<figure style="text-align: center; display: block; margin: 2em auto;">
+    <img src="/images/Outreach.png" alt="Demonstrating physics concepts at a public outreach event">
+    <figcaption style="font-style: italic; margin-top: 0.5em; font-size: 0.9em;">
+        Using diffraction grating glasses and gas emission lamps to discuss spectroscopy and the physics of spectral lines at a public outreach event.
+    </figcaption>
+</figure>
