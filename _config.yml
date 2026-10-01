@@ -23,7 +23,7 @@ repository               : "Nathan-Cruickshank/Nathan-Cruickshank.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "/images/profile.jpg"
   name             : "Nathan Cruickshank"
   pronouns         : # example: "she/her"  
   bio              : "Theoretical Cosmologist"
