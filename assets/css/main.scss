@@ -93,9 +93,11 @@ body {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5) !important;
 }
 
-/* 7. Safely push navigation links to the right without triggering the mobile menu script */
+/* 7. Align 'Research' navigation link with main content column */
 .greedy-nav .visible-links {
-    width: auto !important;       /* Ensures the JS knows the links still fit on screen */
-    margin-left: auto !important; /* Slides the links to the right in modern browsers */
-    float: right !important;      /* Fallback slide for older theme versions */
+    display: block !important;
+    width: auto !important;
+    float: none !important;
+    /* I am guessing this exact value; adjust it to align the R's perfectly */
+    margin-left: 3.5rem !important; 
 }
