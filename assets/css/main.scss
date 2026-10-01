@@ -93,11 +93,13 @@ body {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5) !important;
 }
 
-/* 7. Restore original tight spacing between title and navigation links */
-.greedy-nav {
-    justify-content: flex-start !important; /* Packs the title and links to the left */
+/* 7. Override the theme's invisible spacer to pull links left */
+.greedy-nav .site-title,
+.greedy-nav .masthead__menu-item--lg {
+    /* Replaces the expanding 'auto' spring with a fixed small gap */
+    margin-right: 2rem !important; 
 }
 
 .greedy-nav .visible-links {
-    margin-left: 1.5rem !important; /* Recreates the small gap from the original layout */
+    margin-left: 0 !important;
 }
