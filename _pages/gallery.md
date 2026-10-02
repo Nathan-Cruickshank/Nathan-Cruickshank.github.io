@@ -36,6 +36,15 @@ permalink: /gallery/
     opacity: 1; 
     transform: scale(1.05) translateZ(0); 
   }
+  /* Forces full brightness and disables hover zoom on touch devices */
+  @media (hover: none) {
+    .photography-grid img {
+      opacity: 1;
+    }
+    .photography-grid img:hover {
+      transform: none;
+    }
+  }
 </style>
 
 <div class="photography-grid">
