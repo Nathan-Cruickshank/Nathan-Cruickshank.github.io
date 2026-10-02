@@ -6,15 +6,16 @@ permalink: /gallery/
 
 <style>
   .photography-grid {
-    display: grid;
-    /* Automatically creates as many 250px columns as will fit on the screen */
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; /* The space between your photos */
     margin-top: 2em;
   }
   
   .image-container {
-    overflow: hidden; /* Keeps the zoomed image confined to its grid box */
+    height: 250px; /* The baseline target height for your rows */
+    flex-grow: 1; /* Tells the container to stretch and fill any empty space in the row */
+    overflow: hidden;
     border-radius: 5px; /* Matches the rounded corners from your Talks page */
     background-color: #111; /* Gives a dark backdrop for the dimming effect */
   }
@@ -22,8 +23,7 @@ permalink: /gallery/
   .photography-grid img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Prevents images from stretching out of proportion */
-    aspect-ratio: 1 / 1; /* Crops all images into uniform squares for a clean grid */
+    object-fit: cover; /* Ensures the image fills its stretched box beautifully without distorting */
     opacity: 0.7; /* The default, slightly darker state */
     transition: all 0.3s ease-in-out; /* Smoothly animates the hover changes */
     cursor: pointer;
@@ -33,6 +33,11 @@ permalink: /gallery/
   .photography-grid img:hover {
     opacity: 1; /* Snaps to full brightness */
     transform: scale(1.05); /* Zooms in 5% */
+  }
+  
+  /* Stops the final row from stretching wildly if it only contains 1 or 2 leftover images */
+  .image-container:last-child {
+    flex-grow: 0;
   }
 </style>
 
