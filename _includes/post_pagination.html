@@ -4,6 +4,9 @@
   <nav class="pagination">
     {% if page.previous %}
       <a href="{{ base_path }}{{ page.previous.url }}" class="pagination--pager" title="{{ page.previous.title | markdownify | strip_html }}">{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</a>
+    {% else %}
+      <!-- Invisible spacer to push the Next button to the right -->
+      <div class="pagination--pager" style="visibility: hidden;"></div>
     {% endif %}
     
     {% if page.next %}
