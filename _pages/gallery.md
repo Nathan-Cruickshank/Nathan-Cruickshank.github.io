@@ -8,46 +8,49 @@ permalink: /gallery/
   .photography-grid {
     display: flex;
     flex-wrap: wrap;
-    gap: 15px; /* The space between your photos */
+    gap: 15px; 
     margin-top: 2em;
   }
   
   .image-container {
-    height: 250px; /* The baseline target height for your rows */
-    flex-grow: 1; /* Tells the container to stretch and fill any empty space in the row */
+    height: 250px; 
+    flex-grow: 1; 
     overflow: hidden;
-    border-radius: 5px; /* Matches the rounded corners from your Talks page */
-    background-color: #111; /* Gives a dark backdrop for the dimming effect */
+    border-radius: 5px; 
+    background-color: #111; 
   }
 
   .photography-grid img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ensures the image fills its stretched box beautifully without distorting */
-    opacity: 0.7; /* The default, slightly darker state */
-    transition: all 0.3s ease-in-out; /* Smoothly animates the hover changes */
+    object-fit: cover; 
+    opacity: 0.7; 
+    transition: all 0.3s ease-in-out; 
     cursor: pointer;
     display: block;
   }
 
   .photography-grid img:hover {
-    opacity: 1; /* Snaps to full brightness */
-    transform: scale(1.05); /* Zooms in 5% */
+    opacity: 1; 
+    transform: scale(1.05); 
   }
   
-  /* Stops the final row from stretching wildly if it only contains 1 or 2 leftover images */
   .image-container:last-child {
     flex-grow: 0;
   }
 </style>
 
 <div class="photography-grid">
-  <div class="image-container"><img src="/images/Aurora_Sky.jpg" alt="Gallery placeholder"></div>
-  <div class="image-container"><img src="/images/Aurora_Sky.jpg" alt="Gallery placeholder"></div>
-  <div class="image-container"><img src="/images/Aurora_Sky.jpg" alt="Gallery placeholder"></div>
-  <div class="image-container"><img src="/images/Aurora_Sky.jpg" alt="Gallery placeholder"></div>
-  <div class="image-container"><img src="/images/Aurora_Sky.jpg" alt="Gallery placeholder"></div>
-  <div class="image-container"><img src="/images/Aurora_Sky.jpg" alt="Gallery placeholder"></div>
-  <div class="image-container"><img src="/images/Aurora_Sky.jpg" alt="Gallery placeholder"></div>
-  <div class="image-container"><img src="/images/Aurora_Sky.jpg" alt="Gallery placeholder"></div>
+  <div class="image-container"><img src="/images/Arcade.jpg" alt="Arcade"></div>
+  <div class="image-container"><img src="/images/Bee.jpg" alt="Bee"></div>
+  <div class="image-container"><img src="/images/Cathedral.jpg" alt="Cathedral"></div>
+  <div class="image-container"><img src="/images/Coast.jpeg" alt="Coast"></div>
+  <div class="image-container"><img src="/images/Conservatory.jpg" alt="Conservatory"></div>
+  <div class="image-container"><img src="/images/Mountain.jpg" alt="Mountain"></div>
+  <div class="image-container"><img src="/images/Pittsburgh.jpg" alt="Pittsburgh"></div>
+  <div class="image-container"><img src="/images/Reflection.jpeg" alt="Reflection"></div>
+  <div class="image-container"><img src="/images/Scafell.jpeg" alt="Scafell"></div>
+  <div class="image-container"><img src="/images/Spinnaker.JPG" alt="Spinnaker"></div>
+  <div class="image-container"><img src="/images/Sunset.JPG" alt="Sunset"></div>
+  <div class="image-container"><img src="/images/Warrior.jpg" alt="Warrior"></div>
 </div>
