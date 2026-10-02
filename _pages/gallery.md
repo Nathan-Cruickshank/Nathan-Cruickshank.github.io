@@ -59,5 +59,7 @@ permalink: /gallery/
   <div class="image-container"><img src="/images/Scafell.jpeg" alt="Scafell"></div>
   <div class="image-container"><img src="/images/Spinnaker.JPG" alt="Spinnaker"></div>
   <div class="image-container"><img src="/images/Sunset.JPG" alt="Sunset"></div>
+  <div class="image-container"><img src="/images/Tree.jpg" alt="Tree"></div>
   <div class="image-container"><img src="/images/Warrior.jpg" alt="Warrior"></div>
+  <div class="image-container"><img src="/images/Water.jpg" alt="Water"></div>
 </div>
