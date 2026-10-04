@@ -98,3 +98,8 @@ body {
 .masthead .site-title {
     text-shadow: 0px 2px 8px rgba(0, 0, 0, 1), 0px 0px 4px rgba(0, 0, 0, 1) !important;
 }
+
+/* 8. Hide the deactivated theme toggle button */
+#theme-toggle {
+    display: none !important;
+}
